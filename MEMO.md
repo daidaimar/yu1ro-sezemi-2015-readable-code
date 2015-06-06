@@ -38,3 +38,5 @@ https://github.com/yu1ro/yu1ro-sezemi-2015-readable-code/blob/master/src/Recipe.
 Stringの 変数名を"oneRecipe"にして
 レシピが一つだけであることがわかるようにした
 
+for文にもできるが横にながくなるのでやめた
+
