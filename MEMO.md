@@ -1,10 +1,18 @@
-#インストール
-クローンして下さい
-git clone git@github.com:yu1ro/yu1ro-sezemi-2015-readable-code.git
-git clone https://github.com/yu1ro/yu1ro-sezemi-2015-readable-code.git
+### 実際のコード
 
-#ビルド
-各自の環境に応じてビルドを行ってください
+https://github.com/yu1ro/yu1ro-sezemi-2015-readable-code/blob/master/src/Recipe.java
 
-#実行
-Recipe.javaにメインがあるので、そこから実行をお願いします
+```Recipe.java
+
+        File recipeFile = new File("data/recipe_data.txt");
+        FileReader recipeReader = new FileReader(recipeFile);
+        BufferedReader recipeBuff = new BufferedReader(recipeReader);
+
+        String out = recipeBuff.readLine();
+        System.out.println(out);
+```
+
+### どうしてリーダブルだと思っているかの説明
+
+変数名にrecipeをつけたので、recipeであることがわかるようにした
+
