@@ -1,3 +1,4 @@
+##1つめ
 ### 実際のコード
 
 https://github.com/yu1ro/yu1ro-sezemi-2015-readable-code/blob/master/src/Recipe.java
@@ -15,4 +16,25 @@ https://github.com/yu1ro/yu1ro-sezemi-2015-readable-code/blob/master/src/Recipe.
 ### どうしてリーダブルだと思っているかの説明
 
 変数名にrecipeをつけたので、recipeであることがわかるようにした
+
+##2つめ
+### 実際のコード
+
+https://github.com/yu1ro/yu1ro-sezemi-2015-readable-code/blob/master/src/Recipe.java
+
+```Recipe.java
+
+        //読み込んだレシピを出力
+        String oneRecipe = recipeBuff.readLine();
+        while (oneRecipe != null) {
+            System.out.println(oneRecipe);
+            oneRecipe = recipeBuff.readLine();
+        }
+        recipeBuff.close();
+```
+
+### どうしてリーダブルだと思っているかの説明
+
+Stringの 変数名を"oneRecipe"にして
+レシピが一つだけであることがわかるようにした
 

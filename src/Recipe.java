@@ -7,7 +7,12 @@ public class Recipe {
         FileReader recipeReader = new FileReader(recipeFile);
         BufferedReader recipeBuff = new BufferedReader(recipeReader);
 
-        String out = recipeBuff.readLine();
-        System.out.println(out);
+        //読み込んだレシピを出力
+        String oneRecipe = recipeBuff.readLine();
+        while (oneRecipe != null) {
+            System.out.println(oneRecipe);
+            oneRecipe = recipeBuff.readLine();
+        }
+        recipeBuff.close();
     }
 }
